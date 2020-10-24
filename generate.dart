@@ -25,6 +25,7 @@ analyzer:
     'avoid_classes_with_only_static_members',
     'avoid_positional_boolean_parameters',
     'avoid_print',
+    'diagnostic_describe_all_properties',
     'lines_longer_than_80_chars',
     'omit_local_variable_types',
     'prefer_double_quotes',
