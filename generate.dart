@@ -31,6 +31,7 @@ analyzer:
     'empty_catches',
     'lines_longer_than_80_chars',
     'omit_local_variable_types',
+    'parameter_assignments',
     'prefer_double_quotes',
     'prefer_relative_imports',
     'unnecessary_final',
