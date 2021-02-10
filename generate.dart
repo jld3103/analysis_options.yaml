@@ -12,9 +12,9 @@ analyzer:
   errors:
     flutter_style_todos: ignore
 ''';
-  final body = (await http.get(
+  final body = (await http.get(Uri.parse(
     'https://raw.githubusercontent.com/dart-lang/linter/gh-pages/lints/options/options.html',
-  ))
+  )))
       .body;
   final document = parse(body);
   final removedRules = [
